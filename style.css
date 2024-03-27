@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #211C6A;
+    box-shadow: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar h2 {
+    color: white;
+    margin-left: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.text_content {
+    max-width: 800px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.text_content h2 {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.Img_Content img {
+    max-width: 40%;
+    height: 30rem;
+    margin-top: 20px;
+    background-size: contain;
+    border-radius: 50%;
+    object-fit: contain;
+    align-self: center;
+}
+.img1{
+    border:1px solid rgba(11, 57, 104, 0.838)
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar h2 {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .navbar a {
+        margin-bottom: 10px;
+    }
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text_content {
+        max-width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .Img_Content img {
+        height: auto;
+        width: 100%;
+        margin-top: 6px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Img_Content img {
+        width: 100%;
+        height: auto;
+        min-width: 200px; /* Adjust as needed */
+        margin-top: 20px;
+        
+    }
+    .col img {
+        width: 100%;
+        height: auto;
+        min-width: 200px; /* Adjust as needed */
+        margin-top: 20px;
+        
+    }
+}
+
+.skills {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skil {
+    text-align: center;
+}
+
+.text {
+    background-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Certificates Section Starts Here */
+.col img {
+    height: 400px;
+    margin-top: 20px;
+    width: 400px;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+/* Skills */
+.list-group > li {
+    background-color: #211C6A; /* Change this color to your desired background color */
+    color: white;
+    
+}
+#skil-section{
+    text-align: center;
+}
+
+/* Apply aspect ratio to all images */
+img {
+    aspect-ratio: 2/ 3; /* Adjust the aspect ratio as needed */
+    width: 100%;
+    height: auto;
+}
+/* Footer */
+footer{
+    height: 60px;
+    background-color: #211C6A;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+
+.footer .icon1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border: 5px solid;
+    cursor: grab;
+    
+}
+
+
+.fot2{
+    text-align: center;
+    color: white;
+}
+/* back to top button */
+#bc_to_top{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+/* Sk1 skill-section */
+#SK1{
+    background-color: transparent;
+    color: black;
+}
+
+.img_1-html img {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.img_1-html:hover img {
+    transform: scale(1.1);
+    border: none;
+}
