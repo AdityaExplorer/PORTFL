@@ -46,4 +46,11 @@ document.addEventListener("DOMContentLoaded", function() {
      });
 });
 
+// resume button
+
+let resBtn=document.getElementById('home');
+
+resBtn.addEventListener('click',() => {
+    window.open('./aditya_verma_resume.pdf','_blank');
+});
 
