@@ -17,30 +17,21 @@ document.addEventListener("DOMContentLoaded", function() {
     // Get reference to the skill section
     let welSection = document.getElementById("wel-section");
 
-    // Add click event listener to the certificates link
     certificatesLink.addEventListener("click", function(event) {
-        // Prevent default behavior of anchor tag
         event.preventDefault();
 
-        // Scroll to the certificate section smoothly
         certificateSection.scrollIntoView({ behavior: "smooth" });
     });
 
-    // Add click event listener to the skills link
     skillsLink.addEventListener("click", function(event) {
-        // Prevent default behavior of anchor tag
         event.preventDefault();
 
-        // Scroll to the skill section smoothly
         skillSection.scrollIntoView({ behavior: "smooth" });
     });
 
-    // Add click event listener to the home link
     welCome.addEventListener("click", function(event) {
-        // Prevent default behavior of anchor tag
         event.preventDefault();
 
-        // Scroll to the top smoothly
         welSection.scrollIntoView({ behavior: "smooth" });
 
      });

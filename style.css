@@ -87,22 +87,13 @@
 }
 
 @media only screen and (max-width: 480px) {
-    
-    .Img_Content img {
-        width: 100%;
-        height: auto;
-        min-width: 200px; /* Adjust as needed */
+    .img-fluid .col img {
+        max-width: 50px; /* Adjust as needed */
         margin-top: 20px;
-        
-    }
-    .col img {
-        width: 100%;
-        height: auto;
-        min-width: 200px; /* Adjust as needed */
-        margin-top: 20px;
-        
     }
 }
+
+
 
 .skills {
     margin-top: 3rem;
@@ -144,7 +135,6 @@
 
 /* Apply aspect ratio to all images */
 img {
-    aspect-ratio: 2/ 3; /* Adjust the aspect ratio as needed */
     width: 100%;
     height: auto;
 }
